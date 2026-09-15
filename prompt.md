@@ -22,10 +22,13 @@ CSS
 # Prompt base
 
 Quiero construir un documento digital sobre:
+Time Warp, los artistas que van a tocar en mexico.
 
 **[TEMA]**
 
 Necesito organizar información sobre:
+Su historia y sus canciones principales.
+
 
 **[TIPO DE CONTENIDO O COLECCIÓN]**
 
@@ -40,10 +43,10 @@ posteriormente para generar una página web.
 
 Cada elemento debe incluir los siguientes campos:
 
-- [CAMPO 1]
-- [CAMPO 2]
-- [CAMPO 3]
-- [CAMPO 4]
+- [CAMPO 1] arista 
+- [CAMPO 2] historia del arista
+- [CAMPO 3] sets más importantes 
+- [CAMPO 4]canciones más importantes 
 - [CAMPO 5]
 
 Todos los elementos deben mantener exactamente la misma estructura.
