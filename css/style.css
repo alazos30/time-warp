@@ -1,23 +1,21 @@
-/*
-  ============================================================
-  TOKENS
-  ============================================================
 
-  Variables reutilizables para mantener un sistema visual
-  consistente en todo el documento.
-*/
 
 :root {
-  --color-background: #f4f4f0;
-  --color-text: #171717;
+  --color-background: #000000;
+  --color-text: #ffffff;
   --color-accent: #5b3df5;
 
-  --font-family-base: system-ui, Arial, Helvetica, sans-serif;
+ 
 
   --font-size-body: 1rem;
   --font-size-h1: 3rem;
   --font-size-h2: 2rem;
   --font-size-h3: 1.25rem;
+
+  --font-title: "Electrolize", sans-serif;
+  --font-body: "Pixelify Sans", monospace;
+  --font-accent: "Doto", sans-serif;
+  
 }
 
 /*
@@ -46,11 +44,12 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
 
-  font-family: var(--font-family-base);
+  font-family: Pixelify Sans, var(--font-body);
   font-size: var(--font-size-body);
 }
 
 header {
+  font-family: var(--font-title);
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -69,12 +68,14 @@ header p {
 */
 
 h1 {
+  font-family: Electrolize, var(--font-title);
   font-size: var(--font-size-h1);
   margin: 0;
   padding: 0;
 }
 
 h2 {
+  font-family: Electrolize, var(--font-title);
   font-size: var(--font-size-h2);
 }
 
@@ -124,7 +125,11 @@ main {
   ESPACIADO BÁSICO
   ============================================================
 */
-
+title {
+  font-size: var(--font-size-h1);
+  margin: 0;
+  padding: 0;
+}
 main,
 footer {
   padding: 2rem;
@@ -146,4 +151,9 @@ nav {
 
 nav a {
   padding: 0.5rem;
+}
+
+h1{
+
+
 }
