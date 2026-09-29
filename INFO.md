@@ -1,3 +1,5 @@
+
+
 El electro nace en Detroit, Nueva York y Los Ángeles, a principios de los 80's en las escenas urbanas y de clubes de baile underground, fuertemente influenciado por el funk y la música electrónica europea. Se caracteriza por su patrón de batería sincopado (ritmo quebrado o breakbeat), marcado de forma robótica por cajas de ritmos clásicas como la Roland TR-808. Se mantiene en un rango de 120 y 140 BPM.
 
 

@@ -4,18 +4,13 @@
   --color-background: #000000;
   --color-text: #ffffff;
   --color-accent: #5b3df5;
-
- 
-
   --font-size-body: 1rem;
-  --font-size-h1: 3rem;
+  --font-size-h1: 5rem;
   --font-size-h2: 2rem;
   --font-size-h3: 1.25rem;
-
   --font-title: "Electrolize", sans-serif;
   --font-body: "Pixelify Sans", monospace;
   --font-accent: "Doto", sans-serif;
-  
 }
 
 /*
@@ -40,22 +35,23 @@
 */
 body {
   margin: 0;
-
   background-color: var(--color-background);
   color: var(--color-text);
-
-  font-family: Pixelify Sans, var(--font-body);
+  font-family: var(--font-title);
   font-size: var(--font-size-body);
+  line-height: 1.4em;
 }
 
 header {
-  font-family: var(--font-title);
+  font-family: var(--font-body);
   text-align: center;
   margin-bottom: 2rem;
 }
 
 header p {
+  font-family: var(--font-title);
   text-wrap-style: balance;
+  margin-top: 0.5rem;
 }
 
 /*
@@ -68,18 +64,18 @@ header p {
 */
 
 h1 {
-  font-family: Electrolize, var(--font-title);
+  font-family: var(--font-body);
   font-size: var(--font-size-h1);
-  margin: 0;
   padding: 0;
 }
 
 h2 {
-  font-family: Electrolize, var(--font-title);
+  font-family: var(--font-body);
   font-size: var(--font-size-h2);
 }
 
 h3 {
+  font-family: var(--font-body);
   font-size: var(--font-size-h3);
 }
 
@@ -153,7 +149,9 @@ nav a {
   padding: 0.5rem;
 }
 
-h1{
 
-
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
