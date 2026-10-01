@@ -33,15 +33,21 @@
 
   Define el sistema visual base del documento.
 */
+html {
+  background-color: black;
+}
+
 body {
   margin: 0;
-  background-color: var(--color-background);
+  min-height: 100vh;
+
+  background: url("./img/fondo2.jpg") center center / cover no-repeat;
+
   color: var(--color-text);
   font-family: var(--font-title);
   font-size: var(--font-size-body);
   line-height: 1.4em;
 }
-
 header {
   font-family: var(--font-body);
   text-align: center;
