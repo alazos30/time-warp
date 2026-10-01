@@ -28,7 +28,7 @@ body {
 body {
   min-height: 100vh;
 
-  background-image: url("../img/fondo2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/fondo2.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
