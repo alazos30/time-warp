@@ -4,44 +4,35 @@
   --color-background: #000000;
   --color-text: #ffffff;
   --color-accent: #5b3df5;
+
   --font-size-body: 1rem;
   --font-size-h1: 5rem;
   --font-size-h2: 2rem;
   --font-size-h3: 1.25rem;
+
   --font-title: "Electrolize", sans-serif;
   --font-body: "Pixelify Sans", monospace;
   --font-accent: "Doto", sans-serif;
 }
 
-/*
-  ============================================================
-  SELECTOR UNIVERSAL
-  ============================================================
-  * funciona como un comodín.
-  Selecciona todos los elementos HTML.
-*/
-
 * {
   box-sizing: border-box;
 }
 
-
-/*
-  ============================================================
-  BODY
-  ============================================================
-
-  Define el sistema visual base del documento.
-*/
-html {
-  background-color: black;
+html,
+body {
+  margin: 0;
+  min-height: 100%;
 }
 
 body {
-  margin: 0;
   min-height: 100vh;
 
-  background: url("./img/fondo2.jpg") center center / cover no-repeat;
+  background-image: url("../img/fondo2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   color: var(--color-text);
   font-family: var(--font-title);
